@@ -69,8 +69,10 @@
         <div class="simulator">
 
             <h3>Simule o investimento <span>ideal</span> para o seu orçamento:</h3>
-            <input type="text" placeholder="Qual o valor do investimento?" id="textSimulator">
-            <button type="button" onclick="getID()"></button>
+            <input type="text" placeholder="R$" id="textSimulator">
+            <button type="button" onclick="getReturnOnInvestment()" id="button" disabled>
+                <img src="./src/images/icon-cash-machine.svg" alt="cash machine">
+            </button>
 
             <div id="result"></div>
         </div>
